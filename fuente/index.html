@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Piezas del perfil de GitHub</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,800&family=Inter:wght@400;500;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d1117;--bg2:#161b22;--ink:#f2efe8;--mut:#8b949e;--gold:#d4a54a;--line:#30363d}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;color:var(--ink);font-family:Inter,sans-serif}
+em{font-style:italic;color:var(--gold)}
+.h{font-family:'Playfair Display';font-weight:800;line-height:1.02}
+.tag{font:700 20px/1 'JetBrains Mono';letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.mono{font-family:'JetBrains Mono',monospace}
+.bars{display:inline-flex;gap:8px;vertical-align:middle}
+.bars i{display:block;width:10px;height:48px;background:var(--gold)}
+.bars i:nth-child(2){height:40px;margin-top:4px}.bars i:nth-child(3){height:32px;margin-top:8px}.bars i:nth-child(4){height:24px;margin-top:12px;opacity:.5}
+section{display:none;position:relative;overflow:hidden;background:var(--bg)}
+section.on{display:block}
+
+/* banner 1760x520 */
+#banner{width:1760px;height:520px;background:radial-gradient(ellipse at 85% 0%,#2b2213 0%,var(--bg) 55%)}
+#banner .l{position:absolute;left:110px;top:96px}
+#banner .r{position:absolute;right:110px;top:110px;width:560px;font:400 23px/1.9 'JetBrains Mono';color:#c9d1d9;background:rgba(22,27,34,.85);border:1px solid var(--line);border-radius:18px;padding:30px 36px}
+.dots{display:flex;gap:10px;margin-bottom:18px}.dots i{width:14px;height:14px;border-radius:50%}
+
+/* tarjeta 840x440 */
+.card{width:840px;height:440px;border:2px solid var(--line);border-radius:24px}
+.card .in{position:absolute;inset:44px 48px}
+.card .t{font-size:62px;margin-top:22px}
+.card .d{font-size:24px;line-height:1.45;color:#c9d1d9;margin-top:18px;max-width:470px}
+.card .st{position:absolute;left:48px;bottom:40px;font:400 18px 'JetBrains Mono';color:var(--mut);letter-spacing:.06em}
+.card .art{position:absolute;right:0;top:0;bottom:0;width:330px}
+.card .photo{position:absolute;inset:0;background-size:cover;background-position:center}
+.fade{position:absolute;inset:0;background:linear-gradient(90deg,var(--bg) 0%,rgba(13,17,23,.6) 40%,rgba(13,17,23,0) 100%)}
+.chip{display:inline-block;border:1.5px solid currentColor;border-radius:999px;padding:6px 14px;font:500 17px Inter;margin:0 8px 10px 0}
+</style>
+</head>
+<body>
+
+<!-- ============ BANNER ============ -->
+<section id="banner">
+  <div class="l">
+    <div class="tag">Hola, soy Maxi 👋</div>
+    <div class="h" style="font-size:112px;margin-top:30px">Construyo con<br><em>IA</em>, <em>3D</em> y tango.</div>
+    <div style="margin-top:34px;font-size:28px;color:#c9d1d9">Ingeniería Informática · UNLaM · Buenos Aires</div>
+  </div>
+  <div class="r">
+    <div class="dots"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i></div>
+    <span style="color:var(--gold)">$</span> whoami<br>
+    <span style="color:#7ee787">maxi</span> · dev full-stack<br>
+    <span style="color:var(--gold)">$</span> ls ./intereses<br>
+    agentes/ &nbsp;webgl/ &nbsp;audio/<br>
+    ia-local/ &nbsp;hardware/ &nbsp;tango/<br>
+    <span style="color:var(--gold)">$</span> <span style="background:var(--gold);color:var(--bg)">&nbsp;</span>
+  </div>
+</section>
+
+<!-- ============ TARJETAS ============ -->
+<section class="card" id="c-carrera" style="background:#0b0f14">
+  <svg class="art" viewBox="0 0 330 440"><defs><pattern id="hx" width="60" height="69" patternUnits="userSpaceOnUse"><path d="M30 0 60 17v35L30 69 0 52V17z" fill="none" stroke="#24303d" stroke-width="2"/></pattern></defs><rect width="330" height="440" fill="url(#hx)"/>
+    <g transform="translate(180 220)"><path d="M0-110 95-55V55L0 110-95 55V-55Z" fill="rgba(111,211,193,.1)" stroke="#6fd3c1" stroke-width="5"/>
+    <circle cx="-38" cy="-30" r="14" fill="#4285f4"/><circle cx="38" cy="-30" r="14" fill="#d97757"/><circle cx="0" cy="0" r="14" fill="#e5e5e5"/><circle cx="-38" cy="32" r="14" fill="#1877f2"/><circle cx="38" cy="32" r="14" fill="#4d6bfe"/><circle cx="0" cy="62" r="14" fill="#ff4500"/></g></svg>
+  <div class="fade" style="background:linear-gradient(90deg,#0b0f14 45%,rgba(11,15,20,0) 75%)"></div>
+  <div class="in"><div class="tag" style="color:#6fd3c1">Juego · WebRTC P2P</div><div class="h t">Carrera <em style="color:#6fd3c1">Neural</em></div>
+    <div class="d">Juego de mesa 3D: seis IAs pelean por los mercados. Se juega en el navegador, sin servidor.</div></div>
+  <div class="st">TYPESCRIPT · THREE.JS · ▶ JUGABLE</div>
+</section>
+
+<section class="card" id="c-tramoya" style="background:linear-gradient(90deg,#0d1117 60%,#3a0c10)">
+  <div class="art"><div class="photo" style="background-image:url(img/tramoya-tablero.jpg);background-position:left top;background-size:auto 100%"></div><div class="fade"></div></div>
+  <div class="in"><div class="tag">Skill para agentes</div><div class="h t"><span class="bars" style="margin-right:16px"><i></i><i></i><i></i></span>Tramoya</div>
+    <div class="d">Una idea, muchas piezas: presentación motion, reel, póster, landing y logo desde los mismos datos.</div></div>
+  <div class="st">JAVASCRIPT · CLAUDE CODE · CODEX</div>
+</section>
+
+<section class="card" id="c-bandonear">
+  <div class="art"><div class="photo" style="background-image:url(img/bandoneon.jpg);background-position:40% 40%"></div><div class="fade"></div></div>
+  <div class="in"><div class="tag">Hardware + software</div><div class="h t">Bandone<em>AR</em></div>
+    <div class="d">Un bandoneón digital y accesible para aprender tango. Misma botonera, mismo tacto.</div></div>
+  <div class="st">EXPO PROYECTO · DIIT UNLaM</div>
+</section>
+
+<section class="card" id="c-fosi">
+  <svg class="art" viewBox="0 0 330 440"><g transform="translate(170 220)" fill="none" stroke-linecap="round">
+    <path d="M-130 0h40l15-60 20 120 20-90 15 60 12-30h40" stroke="#3a3a42" stroke-width="6"/>
+    <path d="M-130 0h40l15-60 20 120 20-90 15 60 12-30h40" stroke="var(--gold)" stroke-width="6" stroke-dasharray="30 400" />
+    <rect x="-120" y="-150" width="240" height="70" rx="14" stroke="var(--gold)" stroke-width="4"/>
+    <circle cx="-80" cy="-115" r="16" stroke="var(--gold)" stroke-width="4"/><circle cx="-30" cy="-115" r="16" stroke="var(--gold)" stroke-width="4"/>
+    <text x="45" y="-104" text-anchor="middle" font-family="JetBrains Mono" font-size="26" fill="var(--gold)" stroke="none">MC331</text></g></svg>
+  <div class="fade" style="background:linear-gradient(90deg,var(--bg) 45%,rgba(13,17,23,0) 80%)"></div>
+  <div class="in"><div class="tag">App Android · Audio</div><div class="h t">FOSI <em>fix</em></div>
+    <div class="d">App plug-and-play que elimina el noise gate del amplificador FOSI MC331.</div></div>
+  <div class="st">KOTLIN · C++ (ESP32)</div>
+</section>
+
+<section class="card" id="c-opensound">
+  <svg class="art" viewBox="0 0 330 440"><g transform="translate(170 220)" fill="none" stroke-width="4">
+    <path d="M-110-60 0-120 110-60V60L0 120-110 60Z" stroke="#3a3a42"/><path d="M-110-60 0 0 110-60M0 0v120" stroke="#3a3a42"/>
+    <circle r="20" fill="var(--gold)" stroke="none"/><circle r="50" stroke="var(--gold)" opacity=".8"/><circle r="85" stroke="var(--gold)" opacity=".5"/><circle r="125" stroke="var(--gold)" opacity=".25"/></g></svg>
+  <div class="fade" style="background:linear-gradient(90deg,var(--bg) 45%,rgba(13,17,23,0) 80%)"></div>
+  <div class="in"><div class="tag">Acústica 3D</div><div class="h t">Open<em>Sound</em></div>
+    <div class="d">Editor acústico 3D: armás un espacio y simulás cómo suena, en el navegador.</div></div>
+  <div class="st">TYPESCRIPT · VITE · THREE.JS</div>
+</section>
+
+<section class="card" id="c-profes">
+  <div class="art" style="display:flex;flex-direction:column;justify-content:flex-end;gap:16px;padding:0 40px 40px 30px">
+    <div style="background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:16px 20px"><div style="color:var(--gold);font-size:26px">★★★★★</div><div style="font-size:17px;color:#c9d1d9;margin-top:6px">"Explica re bien, aprobé"</div></div>
+    <div style="background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin-left:30px"><div style="color:var(--gold);font-size:26px">★★★☆☆</div><div style="font-size:17px;color:#c9d1d9;margin-top:6px">"Toma parciales largos"</div></div>
+  </div>
+  <div class="in"><div class="tag">Comunidad UNLaM</div><div class="h t">Profes<em>UNLaM</em></div>
+    <div class="d">La guía de profesores de la UNLaM: opiniones de alumnos sobre profes, materias y comisiones.</div></div>
+  <div class="st">REACT · TS · FIREBASE</div>
+</section>
+
+<section class="card" id="c-fluido">
+  <svg class="art" viewBox="0 0 330 440"><defs><filter id="tb"><feTurbulence type="fractalNoise" baseFrequency=".012" numOctaves="4" seed="7"/><feColorMatrix values="0 0 0 0 .83  0 0 0 0 .65  0 0 0 0 .29  0 0 0 1.6 -.55"/></filter></defs><rect width="330" height="440" filter="url(#tb)"/></svg>
+  <div class="fade" style="background:linear-gradient(90deg,var(--bg) 42%,rgba(13,17,23,0) 80%)"></div>
+  <div class="in"><div class="tag">Gráficos procedurales</div><div class="h t">Flu<em>ido</em></div>
+    <div class="d">Generador procedural de texturas. Sitio estático, sin build ni dependencias.</div></div>
+  <div class="st">HTML · SIN BUILD · NETLIFY</div>
+</section>
+
+<section class="card" id="c-zork" style="background:#0a0a0b">
+  <div class="art mono" style="padding:70px 40px 0 0;font-size:19px;line-height:1.8;color:#7ee787">
+    &gt; mirar<br><span style="color:#c9d1d9">Estás en una parada del 60. Hay un kiosco cerrado.</span><br>&gt; tomar mate<br><span style="color:#c9d1d9">Está lavado.</span><br><span style="background:#7ee787;color:#000">&nbsp;</span>
+  </div>
+  <div class="fade" style="background:linear-gradient(90deg,#0a0a0b 45%,rgba(10,10,11,0) 75%)"></div>
+  <div class="in"><div class="tag">Aventura de texto</div><div class="h t">Zork <em>argento</em></div>
+    <div class="d">Una aventura de texto porteña donde la IA hace de narrador.</div></div>
+  <div class="st">REACT · NODE · OPENAI</div>
+</section>
+
+<script>
+const P = new URLSearchParams(location.search).get('pieza') || 'banner';
+window.show = id => document.querySelectorAll('section').forEach(s => s.classList.toggle('on', s.id === id));
+show(P);
+</script>
+</body>
+</html>

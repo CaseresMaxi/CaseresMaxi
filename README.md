@@ -3,17 +3,18 @@
 Estudio **Ingeniería Informática en la UNLaM** y me gusta armar cosas que mezclan código con algo físico o artístico: juegos 3D en el navegador, herramientas para agentes de IA, audio y hasta un bandoneón.
 
 - 🎲 Ahora: **[Carrera Neural](https://caseresmaxi.github.io/carrera-neural/)**, un juego de mesa 3D multijugador por P2P. [Jugalo acá](https://caseresmaxi.github.io/carrera-neural/).
+- 📚 Llevo **[mi fork de Open Notebook](https://github.com/CaseresMaxi/open-notebook)**, la alternativa libre a NotebookLM, hacia una herramienta para estudiar: exámenes de práctica, cuadernos Jupyter con un tutor al lado de cada celda, resúmenes con citas verificadas de la fuente y un servidor casero con Tailscale.
 - 🎭 Hago **[Tramoya](https://github.com/CaseresMaxi/tramoya)**, una skill que le permite a un agente generar presentaciones, reels y pósters.
 - 🧠 Me interesa la IA que corre **local**, sin nube ni API.
 - 🪗 Y el tango: con **BandoneAR** buscamos que aprender bandoneón sea accesible.
 
 ## Proyectos
 
-<a href="https://github.com/CaseresMaxi/carrera-neural"><img src="assets/carrera-neural.png" alt="Carrera Neural" width="48%"></a> <a href="https://github.com/CaseresMaxi/tramoya"><img src="assets/tramoya.png" alt="Tramoya" width="48%"></a>
+<a href="https://github.com/CaseresMaxi/carrera-neural"><img src="assets/carrera-neural.png" alt="Carrera Neural" width="48%"></a> <a href="https://github.com/CaseresMaxi/open-notebook"><img src="assets/open-notebook.png" alt="Open Notebook, mi fork para estudiar" width="48%"></a>
 
-<a href="https://github.com/CaseresMaxi/presentacio_bandonear"><img src="assets/bandonear.png" alt="BandoneAR" width="48%"></a> <a href="https://github.com/CaseresMaxi/fosi_MC331_fix"><img src="assets/fosi-fix.png" alt="FOSI MC331 fix" width="48%"></a>
+<a href="https://github.com/CaseresMaxi/tramoya"><img src="assets/tramoya.png" alt="Tramoya" width="48%"></a> <a href="https://github.com/CaseresMaxi/presentacio_bandonear"><img src="assets/bandonear.png" alt="BandoneAR" width="48%"></a>
 
-<a href="https://github.com/CaseresMaxi/opensound"><img src="assets/opensound.png" alt="OpenSound" width="48%"></a> <a href="https://github.com/CaseresMaxi/ProfesUnlam"><img src="assets/profes-unlam.png" alt="ProfesUNLaM" width="48%"></a>
+<a href="https://github.com/CaseresMaxi/fosi_MC331_fix"><img src="assets/fosi-fix.png" alt="FOSI MC331 fix" width="48%"></a> <a href="https://github.com/CaseresMaxi/opensound"><img src="assets/opensound.png" alt="OpenSound" width="48%"></a>
 
 <a href="https://github.com/CaseresMaxi/fluido"><img src="assets/fluido.png" alt="Fluido" width="48%"></a> <a href="https://github.com/CaseresMaxi/zork-argento"><img src="assets/zork-argento.png" alt="Zork argento" width="48%"></a>
 
